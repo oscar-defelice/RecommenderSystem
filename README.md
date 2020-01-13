@@ -6,7 +6,7 @@ Given the constant rise of dating related apps - such as Tinder, Lovoo, Hitch - 
 
 Not only dating apps could benefit of such a system. Indeed, nowadays the existence of places collecting different industries - like co-working spaces, startup hubs, etc. - is becoming more and more frequent in our cities.
 
-A user recommender system (where _the thing to be recommended_ is the user itself) can face the issues of both these systems.
+A user recommender system (where _the things to be recommended_ are users itself) can face issues from both of these applications.
 
 ## Installation instructions
 
