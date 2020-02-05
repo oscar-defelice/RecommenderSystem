@@ -23,9 +23,52 @@
 ### This module contains objects to convert datasets into a matrix of
 ### features.
 ###
+### 14/01/2020 - Oscar: Created the module
+### 05/02/2020 - Oscar: DaMa CaVect object created
+### 05/02/2020 - Oscar: CaVect __init__ method defined
+###
 
 """
 DAta to MAtrix module.
 
 This module contains objects to convert datasets into a matrix of features.
 """
+
+class CaVect(object):
+    """
+        CaVect object.
+
+        Object collecting methods to convert categorical variables to numerical
+        vectors.
+
+        Parameters
+        ----------
+            data                    : pandas dataframe
+                                        It contains the data of users.
+
+            feature_categories      : list of strings
+                                        It contains the list of columns containing categorical variables.
+
+            feature_vect_categories : list of strings
+                                        It contains the list of columns containing categorical vector variables.
+
+        Attributes
+        ----------
+            df_         :   pandas dataframe
+                                It contains the original user dataframe.
+
+            X_          :   numpy array
+                                It contains the matrix of user features.
+
+            auth_ids    :   list of strings
+                                It contains the list of user ids.
+
+
+    """
+
+    def __init__(self, feature_categories, feature_vect_categories):
+        """
+            Constructor method.
+        """
+        super(CaVect, self).__init__()
+        self.arg = arg
